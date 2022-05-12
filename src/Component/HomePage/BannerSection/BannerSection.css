@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+.banner_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.banner_section h1,
+h2 {
+  font-family: "Oswald", sans-serif;
+}
