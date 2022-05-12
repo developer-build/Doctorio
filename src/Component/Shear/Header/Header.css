@@ -1,0 +1,9 @@
+.Link {
+  color: #3d4461;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.active {
+  background-color: #fff;
+}
