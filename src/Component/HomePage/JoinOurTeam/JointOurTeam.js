@@ -5,8 +5,8 @@ import doctor from "../../../Assets/Images/doctor_hand_on_phone.webp";
 const JointOurTeam = () => {
   return (
     <div className="bg-neutral">
-      <div className="md:w-4/5 w-11/12 grid md:grid-cols-2 justify-center items-center mx-auto py-10">
-        <div className="order-last md:order-first">
+      <div className="md:w-4/5 w-11/12 grid lg:grid-cols-2 justify-center items-center mx-auto py-10">
+        <div className="order-last text-center mt-10 lg:mt-0 lg:text-left lg:order-first">
           <h1 className="mb-2 text-xl md:text-3xl text-accent font-bold">
             Are you
           </h1>

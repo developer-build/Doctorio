@@ -5,7 +5,7 @@ import CustomizeButton from "../../Shear/customize_button/CustomizeButton";
 
 const OurDoctorTeam = () => {
   return (
-    <div className="lg:w-4/5 flex justify-between  OurDoctorTeam shadow-2xl   mx-auto mb-5 bg-white rounded-xl ">
+    <div className="lg:w-4/5 flex justify-between  OurDoctorTeam shadow-sm lg:shadow-2xl   mx-auto mb-5 bg-white rounded-xl ">
       <div className=" py-5 md:p-7 text-center lg:text-left  ">
         <h2 className="mb-5 text-xl md:text-2xl text-accent font-bold">
           Seek immediate advice From the best doctors

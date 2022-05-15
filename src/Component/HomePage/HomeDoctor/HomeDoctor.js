@@ -10,7 +10,7 @@ const HomeDoctor = ({ doctor }) => {
           <img src={img} alt="" />
           <div className="love">
             <span>
-              <i class="fa-solid fa-heart"></i>
+              <i className="fa-solid fa-heart"></i>
             </span>
           </div>
         </div>
@@ -29,19 +29,19 @@ const HomeDoctor = ({ doctor }) => {
           <p className="mt-1">
             {Feedback.length <= 2 ? (
               <span className="mr-2 text-sm text-yellow-400">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star-half-stroke"></i>
               </span>
             ) : (
               <span className="mr-2 text-sm text-yellow-400">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
               </span>
             )}
             <span className="text-sm text-gray-500">
@@ -49,11 +49,11 @@ const HomeDoctor = ({ doctor }) => {
             </span>
           </p>
           <p className="pt-3 text-sm text-gray-500">
-            <i class="fa-solid fa-location-dot mr-2"></i>
+            <i className="fa-solid fa-location-dot mr-2"></i>
             {location}
           </p>
           <p className="mt-1 font-medium " style={{ color: "#1ABCAB" }}>
-            <i class="fa-brands fa-creative-commons-by text-gray-500"></i>{" "}
+            <i className="fa-brands fa-creative-commons-by text-gray-500"></i>{" "}
             Available Today
           </p>
         </div>

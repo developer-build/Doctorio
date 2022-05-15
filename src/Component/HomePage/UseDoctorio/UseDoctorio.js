@@ -5,7 +5,7 @@ const UseDoctorio = () => {
   return (
     <div>
       <div className="  my-20">
-        <div className="w-11/12 gap-5 mx-auto md:w-4/5 grid md:grid-cols-2 justify-center items-center ">
+        <div className="w-11/12 gap-5 mx-auto md:w-4/5 grid lg:grid-cols-2 justify-center items-center ">
           <div>
             <img src={head} alt="" className="md:max-w-lg min-h-full " />
           </div>

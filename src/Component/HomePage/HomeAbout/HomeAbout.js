@@ -6,9 +6,9 @@ import CustomizeButtonOutline from "../../Shear/customize_button/CustomizeButton
 const HomeAbout = () => {
   return (
     <div className="  my-20">
-      <div className="w-11/12 gap-5 mx-auto md:w-4/5 grid md:grid-cols-2 justify-center items-center ">
+      <div className="w-11/12 gap-5 mx-auto lg:text-left text-center lg:w-4/5 grid lg:grid-cols-2 justify-center items-center ">
         <div>
-          <img src={about} alt="" className="md:max-w-lg min-h-full " />
+          <img src={about} alt="" className="md:max-w-lg min-h-full mx-auto " />
         </div>
         <div className="md:mt-5 md:ml-7">
           <h1 className="mb-3 text-xl md:text-4xl text-accent md:font-bold">
@@ -23,7 +23,7 @@ const HomeAbout = () => {
             veniam quis norud exercitation ullamco laboris nisi aliquip commodo
             consequat duis aute irure dolor in reprehenderit.
           </p>
-          <div className="lg:flex text-center md:text-left items-center">
+          <div className="md:flex  text-center md:text-left lg:justify-start justify-center items-center">
             <p>
               <CustomizeButton>About</CustomizeButton>
             </p>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import CustomizeButtonOutline from "../customize_button/CustomizeButtonOutline";
+import CustomizeButton from "../customize_button/CustomizeButton";
 import "./Header.css";
 
 const Header = () => {
@@ -64,7 +64,7 @@ const Header = () => {
         </ul>
       </li>
       <li>
-        <CustomizeButtonOutline>Login</CustomizeButtonOutline>
+        <CustomizeButton>Login</CustomizeButton>
       </li>
     </>
   );

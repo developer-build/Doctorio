@@ -4,13 +4,13 @@ import apple from "../../../Assets/Icons/app-store.png";
 import google from "../../../Assets/Icons/google-play.png";
 const DoctorApp = () => {
   return (
-    <div className="bg-neutral my-5">
-      <div className="md:w-4/5 w-11/12 grid md:grid-cols-2 justify-center items-center mx-auto ">
+    <div className="bg-neutral pb-10 mt-5">
+      <div className="md:w-4/5 w-11/12 grid lg:grid-cols-2 justify-center items-center mx-auto ">
         <div>
           <img className="md:max-w-lg min-h-full " src={doctor} alt="" />
         </div>
-        <div>
-          <h1 className="mb-2 text-xl md:text-4xl text-accent md:font-bold">
+        <div className="text-center lg:text-left">
+          <h1 className="mb-2 mt-10 lg:mt-0 text-xl  md:text-4xl text-accent md:font-bold">
             Care On The GO
           </h1>
           <h1 className="mb-3 text-xl font-semibold md:text-3xl text-secondary ">
@@ -20,7 +20,7 @@ const DoctorApp = () => {
             Lorem ipsum dolor amet consectetur adipisicing eliteiuim sete
             eiusmod tempor incididunt ut labore etnalom dolore magna aliqua.
           </p>
-          <div className="text-center">
+          <div className="text-center lg:text-left">
             <button className="m-2">
               <img src={google} alt="" />
             </button>
