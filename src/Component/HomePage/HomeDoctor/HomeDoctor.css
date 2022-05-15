@@ -1,0 +1,19 @@
+.doctor_card {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.doctor_img {
+  background-color: rgb(250, 249, 249);
+  text-align: center;
+}
+.doctor_img img {
+  transition: 0.5s;
+}
+.doctor_card:hover {
+  box-shadow: 0 6px 23px -14px rgb(0, 0, 0);
+}
+.doctor_card:hover .doctor_img img {
+  opacity: 0.6;
+}

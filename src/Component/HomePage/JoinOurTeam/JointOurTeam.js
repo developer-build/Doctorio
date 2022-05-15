@@ -27,7 +27,7 @@ const JointOurTeam = () => {
           </div>
         </div>
         <div>
-          <img className="max-w-lg min-h-full " src={doctor} s alt="" />
+          <img className="md:max-w-lg min-h-full " src={doctor} alt="" />
         </div>
       </div>
     </div>

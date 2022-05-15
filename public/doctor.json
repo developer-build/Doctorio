@@ -1,0 +1,74 @@
+[
+  {
+    "img": "https://i.ibb.co/VTfdJPm/Untitled-design-5-removebg-preview.png",
+    "_id": 1,
+    "treatment": "Dermatology",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "Bangladesh ",
+    "name": "Aysha Siddika",
+    "Feedback": ["nice work", "super", "Great"]
+  },
+  {
+    "img": "https://i.ibb.co/VV0LKJR/Untitled-design-6-removebg-preview.png",
+    "_id": 2,
+    "treatment": "Anesthesiology",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "United Kingdom( UK )",
+    "name": "Flores Emily",
+    "Feedback": ["nice work"]
+  },
+  {
+    "img": "https://i.ibb.co/vDgLJ88/Untitled-design-7-removebg-preview.png",
+    "_id": 3,
+    "treatment": "Ophthalmology",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "United Kingdom( UK )",
+    "name": "Flores Emily",
+    "Feedback": ["nice work", "super", "beautiful", "wow"]
+  },
+  {
+    "img": "https://i.ibb.co/qp56fsy/Untitled-design-13-removebg-preview.png",
+    "_id": 4,
+    "treatment": "Pediatrics",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "United Emirates",
+    "name": "Flores Emily",
+    "Feedback": ["nice work", "super", "beautiful"]
+  },
+  {
+    "img": "https://i.ibb.co/mDwwdxm/Untitled-design-16-removebg-preview.png",
+    "_id": 5,
+    "treatment": "Psychiatry",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "Bangladesh",
+    "name": "Flores Emily",
+    "Feedback": ["nice work", "super"]
+  },
+  {
+    "img": "https://i.ibb.co/m6rhCvB/Untitled-design-15-removebg-preview.png",
+    "_id": 6,
+    "treatment": "Family Medicine",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "Canada",
+    "name": "Flores Emily",
+    "Feedback": ["nice work", "super", "beautiful"]
+  },
+  {
+    "img": "https://i.ibb.co/k2gZrRt/Untitled-design-14-removebg-preview.png",
+    "_id": 7,
+    "treatment": "Diagnostic",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "Finland",
+    "name": "Flores Emily",
+    "Feedback": ["super", "beautiful"]
+  },
+  {
+    "img": "https://i.ibb.co/bF2s7y8/Untitled-design-12-removebg-preview.png",
+    "_id": 8,
+    "treatment": "Anesthesiology",
+    "education": "Ph.D, DPT, MS OMPT",
+    "location": "England",
+    "name": "Flores Emily",
+    "Feedback": ["nice work", "super", "beautiful", "joss"]
+  }
+]
