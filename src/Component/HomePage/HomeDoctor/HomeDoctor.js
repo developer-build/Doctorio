@@ -8,6 +8,11 @@ const HomeDoctor = ({ doctor }) => {
       <div className="doctor_card">
         <div className="doctor_img">
           <img src={img} alt="" />
+          <div className="love">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+            </span>
+          </div>
         </div>
         <div className="p-5">
           <h6 className="text-primary text-lg font-medium ">{treatment}</h6>

@@ -4,6 +4,9 @@ import HomeAbout from "../HomeAbout/HomeAbout";
 import JointOurTeam from "../JoinOurTeam/JointOurTeam";
 import OurDoctorTeam from "../OurDoctorTeam/OurDoctorTeam";
 import HomeDoctors from "../HomeDoctors/HmeDoctors";
+import Works from "../Works/Works";
+import UseDoctorio from "../UseDoctorio/UseDoctorio";
+import DoctorApp from "../DoctorApp/DoctorApp";
 
 const Home = () => {
   return (
@@ -11,8 +14,11 @@ const Home = () => {
       <BannerSection />
       <OurDoctorTeam />
       <HomeAbout />
+      <Works />
       <HomeDoctors />
       <JointOurTeam />
+      <UseDoctorio />
+      <DoctorApp />
     </>
   );
 };

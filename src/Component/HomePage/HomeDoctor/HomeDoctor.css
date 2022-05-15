@@ -7,6 +7,24 @@
 .doctor_img {
   background-color: rgb(250, 249, 249);
   text-align: center;
+  position: relative;
+}
+.doctor_img .love {
+  width: 60px;
+  height: 60px;
+  padding: 20px 0;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 220px;
+}
+.love span {
+  border: 1px solid rgb(228, 228, 228);
+  padding: 10px 13px;
+  border-radius: 50px;
+  color: rgb(236, 236, 236);
+  transition: all 0.5s;
 }
 .doctor_img img {
   transition: 0.5s;
@@ -16,4 +34,7 @@
 }
 .doctor_card:hover .doctor_img img {
   opacity: 0.6;
+}
+.doctor_card:hover .love span {
+  color: rgb(243, 30, 30);
 }

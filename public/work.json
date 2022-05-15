@@ -1,0 +1,20 @@
+[
+  {
+    "img": "https://i.ibb.co/1nDKJ7r/img-01-3.png",
+    "type": "Search Best Online",
+    "name": "Professional",
+    "_id": 1
+  },
+  {
+    "img": "https://i.ibb.co/MD2P3nb/img-02-4.png",
+    "type": "Get Instant",
+    "name": "Appointment",
+    "_id": 2
+  },
+  {
+    "img": "https://i.ibb.co/Ns4Rxg4/img-03-3.png",
+    "type": "Leave Your",
+    "name": "Feedback",
+    "_id": 3
+  }
+]

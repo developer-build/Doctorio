@@ -7,6 +7,7 @@ import Header from "./Component/Shear/Header/Header";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
+import Footer from "./Component/Shear/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer />
     </>
   );
 }

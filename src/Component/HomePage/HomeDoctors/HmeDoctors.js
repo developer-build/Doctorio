@@ -10,8 +10,8 @@ const HmeDoctors = () => {
       .then((data) => setDoctors(data));
   }, []);
   return (
-    <div className="md:w-4/5 mx-auto my-10 py-10 ">
-      <div className="text-center p-2 mx-auto md:w-3/4 mt-5">
+    <div className="md:w-4/5 mx-auto  py-10 ">
+      <div className="text-center p-2 mx-auto md:w-3/4 ">
         <h6 className="text-accent text-lg font-medium mb-1">
           Meet Our Professionals
         </h6>
