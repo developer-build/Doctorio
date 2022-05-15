@@ -1,0 +1,9 @@
+.OurDoctorTeam {
+  margin-top: -50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .OurDoctorTeam {
+    margin-top: 5px;
+  }
+}

@@ -1,3 +1,11 @@
+.custom_btn {
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px #b3e1fe;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 .custom_btn:hover {
-  box-shadow: 5px 5px 15px #a3daff;
+  box-shadow: 0px 15px 20px #6fc8ff;
+  transform: translateY(-7px);
 }

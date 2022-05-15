@@ -9,105 +9,156 @@ import CustomizeButtonOutline from "../../Shear/customize_button/CustomizeButton
 const BannerSection = () => {
   return (
     <div className="bg-neutral banner_section">
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full">
+      <div className="carousel w-full">
+        <div id="slide1" className="carousel-item relative w-full">
           <div className="flex justify-center w-full  items-center">
             <div
               id="slide1"
-              class="carousel-item relative w-full flex justify-center items-center"
+              className="carousel-item relative w-full flex justify-center items-center"
             >
-              <img src={banner1} alt="" />
+              <img
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                src={banner1}
+                className=" hidden lg:block"
+                alt=""
+              />
               <div className="md:ml-10">
-                <div className="uppercase  text-accent font-bold text-4xl">
-                  <h2 className="text-secondary pb-5"> Every doctors </h2>
+                <div className="uppercase  text-accent font-bold text-1xl md:text-4xl">
+                  <h2
+                    data-aos="fade-left"
+                    data-aos-delay="70"
+                    data-aos-duration="1400"
+                    className="text-secondary pb-5"
+                  >
+                    {" "}
+                    Every doctors{" "}
+                  </h2>
 
-                  <h1 className="text-5xl pb-5"> on Doctorio platform</h1>
+                  <h1
+                    data-aos-delay="80"
+                    data-aos-duration="1700"
+                    data-aos="fade-left"
+                    className=" text-2xl md:text-5xl pb-5"
+                  >
+                    on Doctorio platform
+                  </h1>
 
-                  <h2 className="text-secondary">are BMDC certified.</h2>
-                  <div className="mt-10">
-                    <span className="mr-5">
+                  <h2
+                    data-aos-delay="90"
+                    data-aos-duration="1900"
+                    data-aos="fade-left"
+                    className="text-secondary"
+                  >
+                    are BMDC certified.
+                  </h2>
+                  <div className="mt-10 md:flex">
+                    <p
+                      data-aos="fade-left"
+                      data-aos-delay="90"
+                      data-aos-duration="1900"
+                      className=" mb-5  md:mr-5"
+                    >
                       <CustomizeButton>Get Started</CustomizeButton>
-                    </span>
+                    </p>
 
-                    <CustomizeButtonOutline>View Doctor</CustomizeButtonOutline>
+                    <p data-aos="fade-left" className="mb-3 md:mr-5">
+                      <CustomizeButtonOutline>
+                        View Doctor
+                      </CustomizeButtonOutline>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" className="btn btn-circle text-primary">
               ❮
             </a>
-            <a href="#slide2" class="btn btn-circle">
+            <a href="#slide2" className="btn btn-circle text-primary">
               ❯
             </a>
           </div>
         </div>
-        <div id="slide2" class="carousel-item relative w-full">
+        <div id="slide2" className="carousel-item relative w-full">
           <div className="flex justify-center w-full  items-center">
             <div
               id="slide1"
-              class="carousel-item relative w-full flex justify-center items-center"
+              className="carousel-item relative w-full flex justify-center items-center"
             >
-              <img src={banner2} alt="" />
+              <img src={banner2} className="hidden lg:block" alt="" />
               <div className="md:ml-10">
-                <div className="uppercase  text-accent font-bold text-4xl">
+                <div className="uppercase  text-accent font-bold text-1xl md:text-4xl">
                   <h2 className="text-secondary pb-5"> Every doctors </h2>
 
-                  <h1 className="text-5xl pb-5"> on Doctorio platform</h1>
+                  <h1 className=" text-2xl md:text-5xl pb-5">
+                    on Doctorio platform
+                  </h1>
 
                   <h2 className="text-secondary">are BMDC certified.</h2>
-                  <div className="mt-10">
-                    <span className="mr-5">
+                  <div className="mt-10 lg:flex">
+                    <p className=" mb-5  md:mr-5">
                       <CustomizeButton>Get Started</CustomizeButton>
-                    </span>
+                    </p>
 
-                    <CustomizeButtonOutline>View Doctor</CustomizeButtonOutline>
+                    <p className="mb-3 md:mr-5">
+                      <CustomizeButtonOutline>
+                        View Doctor
+                      </CustomizeButtonOutline>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" className="btn text-primary btn-circle">
               ❮
             </a>
-            <a href="#slide3" class="btn btn-circle">
+            <a href="#slide3" className="btn text-primary btn-circle">
               ❯
             </a>
           </div>
         </div>
-        <div id="slide3" class="carousel-item relative w-full">
+        <div id="slide3" className="carousel-item relative w-full">
           <div className="flex justify-center w-full  items-center">
             <div
               id="slide1"
-              class="carousel-item relative w-full flex justify-center items-center"
+              className="carousel-item relative w-full flex justify-center items-center"
             >
-              <img src={banner3} alt="" />
+              <img src={banner3} alt="" className="hidden lg:block" />
               <div className="md:ml-10">
-                <div className="uppercase  text-accent font-bold text-4xl">
+                <div className="uppercase  text-accent font-bold text-1xl md:text-4xl">
                   <h2 className="text-secondary pb-5"> Every doctors </h2>
 
-                  <h1 className="text-5xl pb-5"> on Doctorio platform</h1>
+                  <h1 className="text-2xl md:text-5xl pb-5">
+                    {" "}
+                    on Doctorio platform
+                  </h1>
 
-                  <h2 className="text-secondary">are BMDC certified.</h2>
-                  <div className="mt-10">
-                    <span className="mr-5">
+                  <h2 className="text-secondary ">are BMDC certified.</h2>
+                  <div className="mt-10 lg:flex">
+                    <p className=" mb-5  md:mr-5">
                       <CustomizeButton>Get Started</CustomizeButton>
-                    </span>
+                    </p>
 
-                    <CustomizeButtonOutline>View Doctor</CustomizeButtonOutline>
+                    <p className="mb-3 md:mr-5">
+                      <CustomizeButtonOutline>
+                        View Doctor
+                      </CustomizeButtonOutline>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" className="btn text-primary btn-circle">
               ❮
             </a>
-            <a href="#slide4" class="btn btn-circle">
+            <a href="#slide4" className="btn text-primary btn-circle">
               ❯
             </a>
           </div>
