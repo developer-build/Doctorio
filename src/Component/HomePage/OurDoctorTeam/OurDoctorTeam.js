@@ -2,6 +2,7 @@ import React from "react";
 import "./OurDoctorTeam.css";
 import doctorTeam from "../../../Assets/Images/doctor-team.png";
 import CustomizeButton from "../../Shear/customize_button/CustomizeButton";
+import { Link } from "react-router-dom";
 
 const OurDoctorTeam = () => {
   return (
@@ -15,7 +16,10 @@ const OurDoctorTeam = () => {
           all your family
         </p>
         <div className="mt-3">
-          <CustomizeButton>Go to Appointment</CustomizeButton>
+          <Link to="/appointment">
+            {" "}
+            <CustomizeButton>Go to Appointment</CustomizeButton>
+          </Link>
         </div>
       </div>
       <div className="bg-accent m-0 rounded-r-xl">

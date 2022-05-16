@@ -4,7 +4,7 @@ import "./HomeDoctor.css";
 const HomeDoctor = ({ doctor }) => {
   const { img, treatment, education, name, location, Feedback } = doctor;
   return (
-    <div>
+    <div className="w-64 mx-auto">
       <div className="doctor_card">
         <div className="doctor_img">
           <img src={img} alt="" />

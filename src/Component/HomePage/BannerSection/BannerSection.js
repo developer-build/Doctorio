@@ -5,6 +5,7 @@ import banner2 from "../../../Assets/Images/banner2.png";
 import banner3 from "../../../Assets/Images/banner3.png";
 import CustomizeButton from "../../Shear/customize_button/CustomizeButton";
 import CustomizeButtonOutline from "../../Shear/customize_button/CustomizeButtonOutline";
+import { Link } from "react-router-dom";
 
 const BannerSection = () => {
   return (
@@ -60,7 +61,9 @@ const BannerSection = () => {
                       data-aos-duration="1900"
                       className=" mb-5  md:mr-5"
                     >
-                      <CustomizeButton>Get Started</CustomizeButton>
+                      <Link to="/appointment">
+                        <CustomizeButton>Get Started</CustomizeButton>
+                      </Link>
                     </p>
 
                     <p data-aos="fade-left" className="mb-3 md:mr-5">
