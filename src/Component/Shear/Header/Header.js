@@ -64,7 +64,9 @@ const Header = () => {
         </ul>
       </li>
       <li>
-        <CustomizeButton>Login</CustomizeButton>
+        <Link to="/login">
+          <CustomizeButton>Login</CustomizeButton>
+        </Link>
       </li>
     </>
   );

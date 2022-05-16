@@ -8,6 +8,8 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
 import Footer from "./Component/Shear/Footer/Footer";
+import Login from "./Component/Pages/Login/Login";
+import SignUp from "./Component/Pages/SignUp/SignUp";
 
 function App() {
   useEffect(() => {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/health-forum" element={<HealthForum />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/sign-up" element={<SignUp />} />
         <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
