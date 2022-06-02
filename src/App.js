@@ -13,6 +13,7 @@ import SignUp from "./Component/Pages/SignUp/SignUp";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { QueryClient, QueryClientProvider } from "react-query";
+import HomeArticles from "./Component/HomePage/HomeArticles/HomeArticles";
 const queryClient = new QueryClient();
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/login" element={<Login />} />
           <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/articles" element={<HomeArticles />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />

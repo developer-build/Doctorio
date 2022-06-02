@@ -23,7 +23,7 @@ const HomeArticles = () => {
           tempor incididunt ut labore etnalom dolore magna aliqua udiminimate
           veniam quis norud.
         </p>
-        <div className=" mx-auto grid gap-5 mt-10 grid-cols-3 md:w-10/12">
+        <div className=" mx-auto grid gap-5 mt-10 md:grid-cols-2 lg:grid-cols-3 md:w-10/12">
           {data?.map((article) => (
             <Article article={article} key={article?._id} />
           ))}

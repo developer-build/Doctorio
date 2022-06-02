@@ -6,7 +6,7 @@ const Article = ({ article }) => {
   return (
     <div className="border article border-gray-100 rounded">
       <div>
-        <img src={img} className="rounded-t" alt="" />
+        <img className="article_img rounded-t" src={img} alt="" />
       </div>
       <div className="p-3 mb-3">
         <h5 className=" mb-1 text-primary">{name}</h5>
@@ -26,8 +26,7 @@ const Article = ({ article }) => {
         </span>
         <span className="text-sm text-gray-400">
           <i class="fa-solid  mr-2  fa-message"></i>
-          {comment}
-          Comments
+          {comment} Comments
         </span>
       </div>
     </div>
