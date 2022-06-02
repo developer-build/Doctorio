@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import "./appoinment.css";
 import AppoinmentBanner from "./AppoinmentBanner";
 import AvailableServices from "./AvailableServices";
@@ -10,7 +9,6 @@ const Appointment = () => {
   return (
     <div>
       <AppoinmentBanner selected={selected} setSelected={setSelected} />
-
       <AvailableServices selected={selected} />
     </div>
   );

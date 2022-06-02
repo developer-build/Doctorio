@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Diagnostic radiology",
+    "img": "https://i.ibb.co/SnrN6Gr/Untitled-design.png",
+    "title": "Alcohol may be less harmful for people over 50",
+    "date": " September 14, 2022",
+    "like": 500,
+    "view": 2013,
+    "comment": 50,
+    "_id": 1
+  },
+  {
+    "name": "Diagnostic radiology",
+    "img": "https://i.ibb.co/THsFD3P/Untitled-design-1.png",
+    "title": "Alcohol may be less harmful for people over 50",
+    "date": " September 14, 2022",
+    "like": 500,
+    "view": 2013,
+    "comment": 50,
+    "_id": 2
+  },
+  {
+    "name": "Diagnostic radiology",
+    "img": "https://i.ibb.co/zxjw3kb/Dermatology.png",
+    "title": "Alcohol may be less harmful for people over 50",
+    "date": " September 14, 2022",
+    "like": 500,
+    "view": 2013,
+    "comment": 50,
+    "_id": 3
+  }
+]

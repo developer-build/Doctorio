@@ -7,6 +7,7 @@ import HomeDoctors from "../HomeDoctors/HmeDoctors";
 import Works from "../Works/Works";
 import UseDoctorio from "../UseDoctorio/UseDoctorio";
 import DoctorApp from "../DoctorApp/DoctorApp";
+import HomeArticles from "../HomeArticles/HomeArticles";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <JointOurTeam />
       <UseDoctorio />
       <DoctorApp />
+      <HomeArticles />
     </>
   );
 };

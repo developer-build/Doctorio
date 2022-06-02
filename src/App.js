@@ -10,24 +10,30 @@ import { useEffect } from "react";
 import Footer from "./Component/Shear/Footer/Footer";
 import Login from "./Component/Pages/Login/Login";
 import SignUp from "./Component/Pages/SignUp/SignUp";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { QueryClient, QueryClientProvider } from "react-query";
+const queryClient = new QueryClient();
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/appointment" element={<Appointment />} />
-        <Route path="/health-forum" element={<HealthForum />} />
-        <Route path="/reviews" element={<Reviews />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/sign-up" element={<SignUp />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
-      <Footer />
+      <QueryClientProvider client={queryClient}>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/health-forum" element={<HealthForum />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SignUp />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
+        <Footer />
+        <ToastContainer />
+      </QueryClientProvider>
     </>
   );
 }

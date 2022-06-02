@@ -1,14 +1,21 @@
 import React, { useEffect, useState } from "react";
+import { useQuery } from "react-query";
+import LoadingSpinner from "../../Shear/LoadingSpinner/LoadingSpinner";
 import HomeDoctor from "../HomeDoctor/HomeDoctor";
 
 const HmeDoctors = () => {
-  const [doctors, setDoctors] = useState([]);
+  const {
+    isLoading,
 
-  useEffect(() => {
-    fetch("doctor.json")
-      .then((res) => res.json())
-      .then((data) => setDoctors(data));
-  }, []);
+    data: doctors,
+  } = useQuery("doctor", () =>
+    fetch("   https://obscure-cove-15599.herokuapp.com/doctor").then((res) =>
+      res.json()
+    )
+  );
+
+  if (isLoading) return <LoadingSpinner />;
+
   return (
     <div className="md:w-4/5 mx-auto  py-10 ">
       <div className="text-center p-2 mx-auto md:w-3/4 ">

@@ -2,9 +2,11 @@
   background-color: white;
   text-align: center;
   border-radius: 50%;
-  width: 50%;
-  height: 60%;
-  padding: 40px;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 /* 

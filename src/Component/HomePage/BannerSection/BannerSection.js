@@ -1,8 +1,8 @@
 import React from "react";
 import "./BannerSection.css";
-import banner1 from "../../../Assets/Images/banner1.png";
+import banner3 from "../../../Assets/Images/banner1.png";
 import banner2 from "../../../Assets/Images/banner2.png";
-import banner3 from "../../../Assets/Images/banner3.png";
+import banner1 from "../../../Assets/Images/banner3.png";
 import CustomizeButton from "../../Shear/customize_button/CustomizeButton";
 import CustomizeButtonOutline from "../../Shear/customize_button/CustomizeButtonOutline";
 import { Link } from "react-router-dom";
