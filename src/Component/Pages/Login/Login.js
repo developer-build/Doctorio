@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import login from "../../../Assets/Images/login.png";
 import auth from "../../../FirebaseInit/FirebaseInit";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
@@ -7,6 +7,8 @@ import LoadingSpinner from "../../Shear/LoadingSpinner/LoadingSpinner";
 import { toast } from "react-toastify";
 
 const Login = () => {
+  const navigate = useNavigate();
+
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
 
@@ -17,6 +19,10 @@ const Login = () => {
   let errorMessage;
   if (error) {
     errorMessage = error?.message;
+  }
+
+  if (user) {
+    navigate("/");
   }
 
   const submitHandler = (event) => {

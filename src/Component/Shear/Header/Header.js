@@ -2,8 +2,18 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import CustomizeButton from "../customize_button/CustomizeButton";
 import "./Header.css";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../../FirebaseInit/FirebaseInit";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import { signOut } from "firebase/auth";
 
 const Header = () => {
+  const [user, loading] = useAuthState(auth);
+
+  if (loading) {
+    return <LoadingSpinner />;
+  }
+
   const menuItems = (
     <>
       <li>
@@ -64,9 +74,18 @@ const Header = () => {
         </ul>
       </li>
       <li>
-        <Link to="/login">
-          <CustomizeButton>Login</CustomizeButton>
-        </Link>
+        {user ? (
+          <button
+            className="border custom_btn rounded border-primary px-14 py-2.5 text-lg hover:bg-primary hover:text-white"
+            onClick={() => signOut(auth)}
+          >
+            Sign Out
+          </button>
+        ) : (
+          <Link to="/login">
+            <CustomizeButton>Login</CustomizeButton>
+          </Link>
+        )}
       </li>
     </>
   );

@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import login from "../../../Assets/Images/login.png";
 import auth from "../../../FirebaseInit/FirebaseInit";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import LoadingSpinner from "../../Shear/LoadingSpinner/LoadingSpinner";
 
 const SignUp = () => {
+  const navigate = useNavigate();
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth);
   console.log(user);
@@ -17,6 +18,9 @@ const SignUp = () => {
   let errorMessage;
   if (error) {
     errorMessage = error?.message;
+  }
+  if (user) {
+    navigate("/");
   }
 
   const submitHandler = (event) => {
